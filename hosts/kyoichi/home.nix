@@ -1,8 +1,8 @@
 { config, pkgs, ... }:
 {
-#  imports = [
-#    ../../modules/nixvim
-#  ];
+  imports = [
+    ../../modules/nixvim
+  ];
 
   home.username = "lordofwizard";
   home.homeDirectory = "/home/lordofwizard";
