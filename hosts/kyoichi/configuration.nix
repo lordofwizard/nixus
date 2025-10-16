@@ -3,6 +3,9 @@
   imports = [
     ./hardware-configuration.nix
   ];
+  
+  boot.loader.grub.enable = true;
+  boot.loader.grub.device = "/dev/vda"; # or "nodev" for efi only
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nixpkgs.config.allowUnfree = true;

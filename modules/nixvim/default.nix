@@ -21,7 +21,7 @@
     };
     plugins = {
       fzf-lua.enable = true;
-      presence-nvim.enable = true;
+#      presence-nvim.enable = true;
     };
     globals.mapleader = " ";
   };
