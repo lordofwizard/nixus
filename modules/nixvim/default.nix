@@ -19,6 +19,10 @@
       clipboard = "unnamedplus";
       showtabline = 2;
     };
+
+    plugins = {
+      fzf-lua.enable = true;
+    };
     globals.mapleader = " ";
   };
 }
