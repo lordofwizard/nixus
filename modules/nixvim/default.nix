@@ -2,7 +2,7 @@
 {
   programs.nixvim = {
     enable = true;
-    options = {
+    opts = {
       number = true;
       relativenumber = true;
       tabstop = 4;
@@ -19,7 +19,6 @@
       clipboard = "unnamedplus";
       showtabline = 2;
     };
-    # A simple colorscheme; wildcharm is Vim-only, so we leave defaults
     plugins = {
       fzf-lua.enable = true;
       presence-nvim.enable = true;
