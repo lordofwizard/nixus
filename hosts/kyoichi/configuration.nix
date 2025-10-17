@@ -25,6 +25,12 @@
   programs.hyprland.withUWSM = true;
   programs.hyprland.xwayland.enable = true;
 
+  services.xserver = {
+    enable = true;
+    desktopManager.gnome.enable = true;
+    displayManager.gdm.enable = true;
+  };
+
   services.pipewire = {
     enable = true;
     pulse.enable = true;
